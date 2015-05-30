@@ -1,0 +1,36 @@
+main {
+	box-sizing: border-box;
+	width: 600px;
+	height: 410px;
+}
+
+/*----------CLASSES----------*/
+
+div.main_box {
+	background-color: #0d226a;
+	width: 250px;
+	height: 153px;
+	border: 1px solid black;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	color: white;
+}
+
+div.flag_line_red {
+	background-color: red;
+	width: auto;
+	height: 20px;
+	border: 1px solid black;
+}
+
+div.flag_line_white {
+	background-color: white;
+	width: auto;
+	height: 20px;
+	border: 1px solid black;
+}
+
+.justfiy {
+	text-align: justify;
+}

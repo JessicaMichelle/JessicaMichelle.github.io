@@ -1,0 +1,68 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+header {
+	text-align: center;
+	font-family: 'Neucha', cursive;
+	font-size: 50px;
+	color: #DEDEDE;
+	text-decoration: underline;
+	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black
+}
+
+body {
+	background-image: url(../img/green_cup.png);
+}
+
+h2, 
+h3 {
+	font-family: 'Cherry Cream Soda', cursive;
+	color: #734047;
+}
+
+p {
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+	color: #EDEDED;
+}
+
+img {
+	float: left;
+	margin-left: 580px;
+	width: 200px;
+	height: 200px;
+}
+
+main {
+	clear: both;
+	margin-left: 10px;
+}
+
+/*----------CLASSES----------*/
+
+.main_nav {
+	font-family: 'Neucha', cursive;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	margin-top: 10px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+/*----------PSEUDO CLASSES----------*/
+
+a:link,  
+a:active, 
+a:hover {
+	color: #734047;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #EDEDED;
+}

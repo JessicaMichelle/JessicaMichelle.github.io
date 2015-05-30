@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="/css/grids.css">
+		<link rel="stylesheet" type="text/css" href="/css/calculator.css">
+		<title>
+			Calculator
+		</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="column three-eighth">
+					<label for="left-operand"></label>
+					<input id="left-operand" name="left-operand" type="text" >
+				</div>
+				<div class="column one-fourth">
+					<label for="operator"></label>
+					<input id="operator" name="operator" type="text">
+				</div>
+				<div class="column three-eighth">
+					<label for="right-operand"></label>
+					<input id="right-operand" name="right-operand" type="text">
+				</div>
+			</div>
+				<div class="row">
+				<div class="column three-fourth">
+					<button type="submit" id="clear">C</button>
+				</div>
+				<div class="column one-fourth">
+					<button class="operator" type="submit">/</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column one-fourth">
+					<button class="operand"type="submit">7</button>
+				</div>
+				<div class="column one-fourth">
+					<button class="operand"type="submit">8</button>
+				</div>
+				<div class="column one-fourth">
+					<button class="operand"type="submit">9</button>
+				</div>
+				<div class="column one-fourth">
+					<button class="operator" type="submit">*</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column one-fourth">
+					<button class="operand"type="submit">4</button>
+				</div>
+				<div class="column one-fourth">
+					<button class="operand"type="submit">5</button>
+				</div>
+				<div class="column one-fourth">
+					<button class="operand"type="submit">6</button>
+				</div>
+				<div class="column one-fourth">
+					<button class="operator" type="submit">-</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column one-fourth">
+					<button class="operand"type="submit">1</button>
+				</div>
+				<div class="column one-fourth">
+					<button class="operand"type="submit">2</button>
+				</div>
+				<div class="column one-fourth">
+					<button class="operand"type="submit">3</button>
+				</div>
+				<div class="column one-fourth">
+					<button class="operator" type="submit">+</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column one-half">
+					<button class="operand"type="submit">0</button>
+				</div>
+				<div class="column one-fourth">
+					<button class="operand"type="submit">.</button>
+				</div>
+				<div class="column one-fourth">
+					<button type="submit" id="equals">=</button>
+				</div>
+		</div>
+
+		<script src="/js/calculator.js"></script>
+	</body>
+</html>

@@ -1,0 +1,79 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+aside {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+/*----------PSEUDO CLASSES----------*/
+
+a:link,
+a:visited {
+	color: #613096;
+}
+
+a:active {
+	color: white;
+}
+
+a:hover {
+	color: yellow;
+}
+
+.box:hover {
+    opacity: .50;
+}
+
+/*----------CLASSES----------*/
+
+ .photo {
+ 	position: absolute;
+ 	top: -40px;
+ 	right: -40px;
+ }
+
+ .box {
+	font-weight: bold;
+	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+	color: white;
+	border: 1px solid black;
+	width: 72px;
+	height: 72px;
+	margin: 25px;
+	padding: 10px;
+	box-shadow: -10px 15px 15px 1px #999999;
+	border-radius: 5px;
+	position: relative;
+	float: left;
+}
+
+.one {
+	background-color: red;
+}
+
+.two {
+	background-color: orange;
+}
+
+.three {
+	background-color: yellow;
+}
+
+.four {
+	background-color: green;
+	clear: left;
+}
+
+.five {
+	background-color: blue
+}
+
+.six {
+	background-color: violet;
+}
