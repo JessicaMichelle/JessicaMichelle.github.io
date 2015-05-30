@@ -5,7 +5,7 @@ $(document).ready(function() {
     // TODO: This function needs to be called once every second
     function updateTimer() {
         if (detonationTimer == 0) {
-            $("body").css("background-image","url(/img/explosion.jpg)");
+            $("body").css("background-image","url(img/explosion.jpg)");
             $("#message")
                 .css("color","white")
                 .html("You are SO totally dead...like DEAD dead...");
@@ -23,7 +23,7 @@ $(document).ready(function() {
     // cancel the interval/timeout for updateTimer()
     function defuseTheBOM() {
         clearInterval(interval);
-        $("body").css("background-image","url(/img/defused.jpg)");
+        $("body").css("background-image","url(img/defused.jpg)");
         $("#message")
             .css("color","white")
             .html("The bomb was disarmed!");

@@ -1,23 +1,20 @@
 (function() {
     // TODO: Create an ajax GET request for /data/inventory.json
-    var inventory = $.get("data/inventory.json");
+    var blog = $.get("data/blog.json");
 
-    inventory.done(function(data) {
+    blog.done(function(data) {
         console.log("AJAX call completed successfully!");
 
         var htmlString = "";
 
         $("#button").click(function(){
-            for (var i = 0; i < data.length; i++) {
-            htmlString += "<tr>";
-                htmlString += "<td>" + data[i].title + "</td>";
-                htmlString += "<td>" + data[i].quantity + "</td>";
-                htmlString += "<td>" + data[i].price + "</td>";
-                htmlString += "<td>" + data[i].categories + "</td>";
-                htmlString += "</tr>";
+                for (var i = 0; i < data.length; i++) {
+                htmlString += "<p>" + data[i].title + "</p>";
+                htmlString += "<p>" + data[i].content + "</p>";
+                htmlString += "<p>" + data[i].categories + "</p>";
             };
 
-            $("#insertProducts").html(htmlString);
+            $("#posts").html(htmlString);
         });
 
     })
