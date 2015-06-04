@@ -49,8 +49,8 @@ p {
 .day2,
 .day3 {
 	background-color: #EEEEEE;
-	width: 250px;
-	height: 250px;
+	width: 300px;
+	height: 300px;
 	border: 1px solid black;
 	float: left;
 	margin-left: 10px;
@@ -60,7 +60,7 @@ p {
 }
 
 .day1 {
-	margin-left: 300px;
+	margin-left: 220px;
 }
 
 .row {
