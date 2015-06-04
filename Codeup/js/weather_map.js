@@ -37,5 +37,5 @@ $(document).ready(function(){
         dailyForecast(cityName);
     });
 
-    dailyForecast("San Antonio TX");
+    dailyForecast("Phoenix AZ");
 });
