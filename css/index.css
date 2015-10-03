@@ -1,11 +1,15 @@
+body {
+	font-family: 'Vidaloka', serif;
+}
+
 header {
 	background-color: yellow;
-	height: 150px;
+	height: 100px;
 }
 
 main {
 	background-color: blue;
-	height:400px;
+	height:450px;
 }
 
 footer {
@@ -15,22 +19,102 @@ footer {
 
 span.name {
 	background-color: violet;
-	font-size: 18px;
+	font-size: 16px;
+	margin-left: 0px;
 }
 
-/*----------ID's-----------*/
+/*----------HEADER CLASSES-----------*/
 
 .name {
 	background-color: red;
 	height: 100px;
 	padding-top: 10px;
-	margin-top: 20px;
+	margin-top: 0px;
+	margin-left: 20px;
 }
 
-.home,
-.resume,
-.projects,
-.contact {
+.home-nav {
 	background-color: red;
-	margin-top: 50px;
+	margin-top: 40px;
+	padding-left: 5px;
+	text-align: center;
+	width: 9.5%
+}
+
+.resume-nav,
+.projects-nav,
+.contact-nav {
+	background-color: red;
+	margin-top: 40px;
+	margin-left: 10px;
+	padding-left: 5px;
+	text-align: center;
+	width: 9.5%
+}
+
+/*----------MAIN CLASSES-----------*/
+
+.main-photo {
+	background-color: violet;
+	border-radius: 100%;
+	height: 400px;
+	width: 400px;
+	margin-top: 27px;
+	background-image: url(../img/me.jpg);
+}
+
+.main-hello {
+	background-color: violet;
+	height: 150px;
+	margin-left: 23px;
+	font-size: 80px;
+}
+
+.main-resume {
+	background-color: violet;
+	border-radius: 100%;
+	height: 130px;
+	width: 130px;
+	margin-left: 23px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.main-work {
+	background-color: violet;
+	border-radius: 100%;
+	height: 130px;
+	width: 130px;
+	margin-left: 23px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.main-skills {
+	background-color: violet;
+	border-radius: 100%;
+	height: 130px;
+	width: 130px;
+	margin-left: 23px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.main {
+	background-color: violet;
+	width: 439px;
+    height: 117px;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+/*----------PSEUDO CLASSES----------*/
+
+a:link,
+a:active,
+a:visited,
+a:hover {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
 }
