@@ -12,3 +12,25 @@ footer {
 	background-color: green;
 	height: 100px;
 }
+
+span.name {
+	background-color: violet;
+	font-size: 18px;
+}
+
+/*----------ID's-----------*/
+
+.name {
+	background-color: red;
+	height: 100px;
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+.home,
+.resume,
+.projects,
+.contact {
+	background-color: red;
+	margin-top: 50px;
+}
