@@ -17,10 +17,10 @@ footer {
 	height: 100px;
 }
 
-span.name {
+.title {
 	background-color: violet;
-	font-size: 16px;
-	margin-left: 0px;
+	font-size: 18px;
+	margin-top: 5px;
 }
 
 /*----------HEADER CLASSES-----------*/
@@ -28,9 +28,8 @@ span.name {
 .name {
 	background-color: red;
 	height: 100px;
-	padding-top: 10px;
 	margin-top: 0px;
-	margin-left: 20px;
+	padding-top: 10px;
 }
 
 .home-nav {
@@ -38,7 +37,6 @@ span.name {
 	margin-top: 40px;
 	padding-left: 5px;
 	text-align: center;
-	width: 9.5%
 }
 
 .resume-nav,
@@ -49,62 +47,63 @@ span.name {
 	margin-left: 10px;
 	padding-left: 5px;
 	text-align: center;
-	width: 9.5%
 }
 
 /*----------MAIN CLASSES-----------*/
 
 .main-photo {
 	background-color: violet;
+	background-image: url(../img/me.jpg);
 	border-radius: 100%;
 	height: 400px;
-	width: 400px;
 	margin-top: 27px;
-	background-image: url(../img/me.jpg);
+	width: 400px;
+}
+
+.main-container {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .main-hello {
 	background-color: violet;
-	height: 150px;
-	margin-left: 23px;
 	font-size: 80px;
+	height: 150px;
 }
 
 .main-resume {
 	background-color: violet;
 	border-radius: 100%;
 	height: 130px;
-	width: 130px;
-	margin-left: 23px;
-	text-align: center;
+	margin-left: 10px;
 	padding-top: 50px;
+	text-align: center;
+	width: 130px;
 }
 
 .main-work {
 	background-color: violet;
 	border-radius: 100%;
 	height: 130px;
-	width: 130px;
-	margin-left: 23px;
-	text-align: center;
+	margin-left: 10px;
 	padding-top: 50px;
+	text-align: center;
+	width: 130px;
 }
 
 .main-skills {
 	background-color: violet;
 	border-radius: 100%;
 	height: 130px;
-	width: 130px;
-	margin-left: 23px;
-	text-align: center;
+	margin-left: 10px;
 	padding-top: 50px;
+	text-align: center;
+	width: 130px;
 }
 
 .main {
 	background-color: violet;
-	width: 439px;
     height: 117px;
-    margin-left: 23px;
     margin-top: 10px;
 }
 
@@ -112,9 +111,12 @@ span.name {
 
 a:link,
 a:active,
-a:visited,
-a:hover {
-	text-decoration: none;
-	color: white;
+a:visited {
+	color: black;
 	font-size: 18px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
 }
