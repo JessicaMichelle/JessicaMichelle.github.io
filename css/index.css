@@ -125,5 +125,9 @@ a:visited {
 }
 
 a:hover {
+	color: #69BFDB;
+}
+
+a.main-button:hover {
 	color: white;
 }
