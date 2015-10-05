@@ -70,6 +70,10 @@ main {
 	padding-left: 0px;
 }
 
+.rm-bottom-pad {
+	padding-bottom: 0px;
+}
+
 .sm-height {
 	height: 40px;
 }
@@ -211,10 +215,6 @@ a.main-button:hover {
 	width: 110px;
 }
 
-.experience {
-	height: 1000px;
-}
-
 .logo {
 	position: absolute;
 	margin-top: -10px;
@@ -246,6 +246,12 @@ a.main-button:hover {
 	padding-left: 80px;
 	padding-bottom: 30px;
 
+}
+
+.sm-box{
+	height: auto;
+	padding-bottom: 0px;
+	padding-top: 20px;
 }
 
 .work-circle {
