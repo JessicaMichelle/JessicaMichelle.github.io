@@ -1,8 +1,16 @@
+/*----------------------------*/
 /*----------ELEMENTS----------*/
+/*----------------------------*/
 
 body {
 	font-family: 'Vidaloka', serif;
 	background-image: url(../img/crossword.png);
+}
+
+footer {
+	background-color: #0D1B48;
+	height: 100px;
+	color: white;
 }
 
 header {
@@ -13,100 +21,44 @@ main {
 	height:450px;
 }
 
-footer {
-	background-color: #0D1B48;
-	height: 100px;
-	color: white;
+/*--------------------------*/
+/*----------CLASSES---------*/
+/*--------------------------*/
+
+.auto-height {
+	height: auto;
 }
-
-/*----------HEADER CLASSES-----------*/
-
-.title {
-	font-size: 18px;
-	margin-top: 5px;
-}
-
-.name {
-	height: 100px;
-	margin-top: 0px;
-	padding-top: 10px;
-}
-
-.nav-bar {
-	margin-top: 40px;
-	padding-left: 5px;
-	text-align: center;
-}
-
-.resume-nav,
-.projects-nav,
-.contact-nav {
-	margin-left: 10px;
-}
-
-/*----------MAIN CLASSES-----------*/
-
-.main-photo {
-	background-image: url(../img/me.jpg);
-	border-radius: 100%;
-	height: 400px;
-	margin-top: 27px;
-	width: 400px;
-}
-
-.main-container {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-.main-hello {
-	font-size: 80px;
-	height: 150px;
-	padding-top: 40px;
-}
-
-.main-button {
-	border-radius: 100%;
-	height: 130px;
-	margin-left: 10px;
-	padding-top: 50px;
-	text-align: center;
-	width: 130px;
-}
-
-.main {
-    height: 117px;
-    margin-top: 20px;
-}
-
-.resume-button {
-	background-color: #E83556;
-}
-
-.work-button {
-	background-color: #AFE835;
-}
-
-.skills-button {
-	background-color: #35E8C7; 
-}
-
-/*----------FOOTER CLASSES----------*/
-
-.footer {
-	padding-top: 10px;
-	padding-left: 0px;
-}
-
-/*----------MISC CLASSES---------*/
 
 .bold {
 	font-family: 'Rozha One', serif;
 	font-size: 16px;
 }
 
-.rm-lft-pad {
-	padding-left: 0px;
+.bottom-border {
+	border-bottom: 1px solid black;
+}
+
+.hidden {
+	display: none;
+}
+
+.italic {
+	font-style: italic;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+
+.large {
+	font-size: 22px;
+	font-family: 'Rozha One', serif;
+}
+
+.left-shift {
+	margin-left: 48px;
+}
+
+.med {
+	font-size: 16px;
 }
 
 .responsive {
@@ -114,7 +66,20 @@ footer {
     height: auto;
 }
 
+.rm-lft-pad {
+	padding-left: 0px;
+}
+
+.sm-height {
+	height: 40px;
+}
+
+.top-shift {
+	margin-top: 20px;
+}
+/*----------------------------------*/
 /*----------PSEUDO CLASSES----------*/
+/*----------------------------------*/
 
 a:link,
 a:active,
@@ -130,4 +95,188 @@ a:hover {
 
 a.main-button:hover {
 	color: white;
+}
+
+/*-----------------------------------*/
+/*----------HEADER CLASSES-----------*/
+/*-----------------------------------*/
+
+.name {
+	height: 100px;
+	margin-top: 0px;
+	padding-top: 10px;
+}
+
+.nav-bar {
+	margin-top: 40px;
+	padding-left: 5px;
+	text-align: center;
+}
+
+.title {
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+.contact-nav,
+.projects-nav,
+.resume-nav {
+	margin-left: 10px;
+}
+
+/*-----------------------------------*/
+/*----------FOOTER CLASSES-----------*/
+/*-----------------------------------*/
+
+.footer {
+	padding-top: 10px;
+	padding-left: 0px;
+}
+
+/*---------------------------------------*/
+/*----------INDEX MAIN CLASSES-----------*/
+/*---------------------------------------*/
+
+.main {
+    height: 117px;
+    margin-top: 20px;
+}
+
+.main-button {
+	border-radius: 100%;
+	height: 130px;
+	margin-left: 10px;
+	padding-top: 50px;
+	text-align: center;
+	width: 130px;
+}
+
+.main-container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.main-hello {
+	font-size: 80px;
+	height: 150px;
+	padding-top: 40px;
+}
+
+.main-photo {
+	background-image: url(../img/me.jpg);
+	border-radius: 100%;
+	height: 400px;
+	margin-top: 27px;
+	width: 400px;
+}
+
+.resume-button {
+	background-color: #E83556;
+}
+
+.skills-button {
+	background-color: #35E8C7; 
+}
+
+.work-button {
+	background-color: #AFE835;
+}
+
+/*---------------------------------------*/
+/*----------RESUME MAIN CLASSES----------*/
+/*---------------------------------------*/
+
+.box {
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.description {
+	height: auto;
+	padding-top: 20px;
+	font-size: 14px;
+}
+
+.ed-circle {
+	background-color: #35E8C7;
+	border-radius: 100%;
+	color: white;
+	font-size: 18px;
+	height: 110px;
+	margin-left: 10px;
+	padding-top: 40px;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+	width: 110px;
+}
+
+.experience {
+	height: 1000px;
+}
+
+.logo {
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+.obj-circle {
+	background-color: #E83556;
+	border-radius: 100%;
+	color: white;
+	font-size: 18px;
+	height: 110px;
+	margin-left: 10px;
+	padding-top: 43px;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+	width: 110px;
+}
+
+.obj-descr {
+	height: 100px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+
+.resume-title {
+	font-size: 80px;
+	padding-left: 80px;
+	padding-bottom: 30px;
+
+}
+
+.work-circle {
+	background-color: #AFE835;
+	border-radius: 100%;
+	color: white;
+	font-size: 18px;
+	height: 110px;
+	margin-left: 10px;
+	padding-top: 28px;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+	width: 110px;
+}
+
+/*----------------------------------------*/
+/*----------RESUME ASIDE CLASSES----------*/
+/*----------------------------------------*/
+
+.aside {
+	position: absolute;
+    right: -50px;
+    top: 252px;
+}
+
+.aside-oval {
+	background-color: #5029A3;
+	border-radius: 10px;
+	color: white;
+	clear: both;
+	font-size: 20px;
+	padding-left: 10px;
+	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
 }
