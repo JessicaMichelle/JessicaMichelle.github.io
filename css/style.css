@@ -2,6 +2,21 @@
 	background-color: blue;
 }
 
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.green {
+	background-color: green;
+}
+
+.violet {
+	background-color: violet;
+}
 /*----------------------------*/
 /*----------ELEMENTS----------*/
 /*----------------------------*/
@@ -42,6 +57,18 @@ main {
 	border-bottom: 1px solid black;
 }
 
+.bottom-pad-sm {
+	padding-bottom: 20px;
+}
+
+.bottom-pad-md {
+	padding-bottom: 40px;
+}
+
+.bottom-pad-lg {
+	padding-bottom: 60px;
+}
+
 .hidden {
 	display: none;
 }
@@ -77,10 +104,6 @@ main {
     height: auto;
 }
 
-.descr-shift {
-	margin-left: 52px;
-}
-
 .rm-lft-pad {
 	padding-left: 0px;
 }
@@ -91,6 +114,15 @@ main {
 
 .sm-height {
 	height: 40px;
+}
+
+.spacer {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.top-mar-sm {
+	margin-top: 20px;
 }
 
 .top-shift {
@@ -114,6 +146,14 @@ a:hover {
 
 a.main-button:hover {
 	color: white;
+}
+
+a.proj-circle:link,
+a.proj-circle:active,
+a.proj-circle:visited,
+a.proj-circle:hover {
+	color: white;
+	text-decoration: none;
 }
 
 /*-----------------------------------*/
@@ -217,6 +257,10 @@ a.main-button:hover {
 	font-size: 14px;
 }
 
+.descr-shift {
+	margin-left: 52px;
+}
+
 .ed-circle {
 	background-color: #35E8C7;
 	border-radius: 100%;
@@ -300,4 +344,33 @@ a.main-button:hover {
 	font-size: 20px;
 	padding-left: 10px;
 	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+}
+
+/*-----------------------------------------*/
+/*----------PROJECTS MAIN CLASSES----------*/
+/*-----------------------------------------*/
+
+.proj-circle {
+	background-color: #5029A3;
+	border-radius: 100%;
+	color: white;
+	font-size: 18px;
+	height: 110px;
+	margin-left: 10px;
+	padding-top: 42px;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+	width: 110px;
+}
+
+.proj-photo {
+	background-image: url(../img/station-cafe.png);
+	height: 307px;
+	margin-left: -10px;
+	margin-right: 10px;
+}
+
+.proj-title {
+	padding-top: 5px;
+	font-size: 20px;
 }
