@@ -29,7 +29,7 @@ body {
 footer {
 	background-color: #0D1B48;
 	height: auto;
-	color: white;
+	color: #FFF;
 }
 
 header {
@@ -54,7 +54,7 @@ main {
 }
 
 .bottom-border {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #000;
 }
 
 .bottom-pad-sm {
@@ -135,25 +135,35 @@ main {
 a:link,
 a:active,
 a:visited {
-	color: black;
+	color: #000;
 	font-size: 18px;
 	text-decoration: none;
-}
-
-a:hover {
-	color: #69BFDB;
-}
-
-a.main-button:hover {
-	color: white;
 }
 
 a.proj-circle:link,
 a.proj-circle:active,
 a.proj-circle:visited,
 a.proj-circle:hover {
-	color: white;
+	color: #FFF;
 	text-decoration: none;
+}
+
+a.full-name,
+a.full-name:link,
+a.full-name:active,
+a.full-name:visited {
+	color: #000;
+	font-size: 36px;
+	text-decoration: none;
+}
+
+a.main-button:hover {
+	color: #FFF;
+}
+
+a.full-name:hover,
+a:hover {
+	color: #69BFDB;
 }
 
 /*-----------------------------------*/
@@ -264,13 +274,13 @@ a.proj-circle:hover {
 .ed-circle {
 	background-color: #35E8C7;
 	border-radius: 100%;
-	color: white;
+	color: #FFF;
 	font-size: 18px;
 	height: 110px;
 	margin-left: 10px;
 	padding-top: 40px;
 	text-align: center;
-	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+	text-shadow: -1px 0 #000, 0 1px #000, 0 1px #000, 0 -1px #000;
 	width: 110px;
 }
 
@@ -283,13 +293,13 @@ a.proj-circle:hover {
 .obj-circle {
 	background-color: #E83556;
 	border-radius: 100%;
-	color: white;
+	color: #FFF;
 	font-size: 18px;
 	height: 110px;
 	margin-left: 10px;
 	padding-top: 43px;
 	text-align: center;
-	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+	text-shadow: -1px 0 #000, 0 1px #000, 0 1px #000, 0 -1px #000;
 	width: 110px;
 }
 
@@ -316,13 +326,13 @@ a.proj-circle:hover {
 .work-circle {
 	background-color: #AFE835;
 	border-radius: 100%;
-	color: white;
+	color: #FFF;
 	font-size: 18px;
 	height: 110px;
 	margin-left: 10px;
 	padding-top: 28px;
 	text-align: center;
-	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+	text-shadow: -1px 0 #000, 0 1px #000, 0 1px #000, 0 -1px #000;
 	width: 110px;
 }
 
@@ -339,11 +349,11 @@ a.proj-circle:hover {
 .aside-oval {
 	background-color: #5029A3;
 	border-radius: 10px;
-	color: white;
+	color: #FFF;
 	clear: both;
 	font-size: 20px;
 	padding-left: 10px;
-	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+	text-shadow: -1px 0 #000, 0 1px #000, 0 1px #000, 0 -1px #000;
 }
 
 /*-----------------------------------------*/
@@ -353,13 +363,13 @@ a.proj-circle:hover {
 .proj-circle {
 	background-color: #5029A3;
 	border-radius: 100%;
-	color: white;
+	color: #FFF;
 	font-size: 18px;
 	height: 110px;
 	margin-left: 10px;
 	padding-top: 42px;
 	text-align: center;
-	text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+	text-shadow: -1px 0 #000, 0 1px #000, 0 1px #000, 0 -1px #000;
 	width: 110px;
 }
 
