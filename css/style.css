@@ -99,6 +99,13 @@ main {
 	font-size: 16px;
 }
 
+.page-title {
+	font-size: 80px;
+	padding-left: 80px;
+	padding-bottom: 30px;
+
+}
+
 .responsive {
     width: 100%;
     height: auto;
@@ -321,13 +328,6 @@ a:hover {
 	padding-top: 30px;
 	padding-bottom: 20px;
 	font-size: 14px;
-}
-
-.resume-title {
-	font-size: 80px;
-	padding-left: 80px;
-	padding-bottom: 30px;
-
 }
 
 .sm-box{
