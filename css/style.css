@@ -140,6 +140,14 @@ a:visited {
 	text-decoration: none;
 }
 
+a.footer-link:link,
+a.footer-link:active,
+a.footer-link:visited {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 14px;
+}
+
 a.proj-circle:link,
 a.proj-circle:active,
 a.proj-circle:visited,
@@ -162,6 +170,7 @@ a.main-button:hover {
 }
 
 a.full-name:hover,
+a.footer-link:hover,
 a:hover {
 	color: #69BFDB;
 }
@@ -200,6 +209,10 @@ a:hover {
 .footer {
 	padding-top: 10px;
 	padding-left: 0px;
+}
+
+.footer-link {
+	font-size: 14px;
 }
 
 /*---------------------------------------*/
