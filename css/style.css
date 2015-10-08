@@ -65,6 +65,7 @@ main {
 
 .left-shift {
 	margin-left: 48px;
+	padding-left: 7px;
 }
 
 .med {
@@ -74,6 +75,10 @@ main {
 .responsive {
     width: 100%;
     height: auto;
+}
+
+.descr-shift {
+	margin-left: 52px;
 }
 
 .rm-lft-pad {
