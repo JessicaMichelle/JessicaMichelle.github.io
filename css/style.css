@@ -377,21 +377,29 @@ a:hover {
 	height: 110px;
 	margin-left: 10px;
 	padding-top: 42px;
+	padding-left: 13px;
 	text-align: center;
 	text-shadow: -1px 0 #000, 0 1px #000, 0 1px #000, 0 -1px #000;
 	width: 110px;
 }
 
-.proj-photo {
-	background-image: url(../img/station-cafe.png);
+.proj-title {
+	padding-top: 5px;
+	font-size: 20px;
+}
+
+.motor-mirth-photo {
+	background-image: url(../img/motor-mirth.png);
 	height: 307px;
 	margin-left: -10px;
 	margin-right: 10px;
 }
 
-.proj-title {
-	padding-top: 5px;
-	font-size: 20px;
+.station-cafe-photo {
+	background-image: url(../img/station-cafe.png);
+	height: 307px;
+	margin-left: -10px;
+	margin-right: 10px;
 }
 
 /*----------------------------------------*/
